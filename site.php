@@ -2,8 +2,18 @@
 <body>
 
 <?php
+$first=5;
+$second=4;
+echo "<br>";
+echo $first+$second;
+function write()
+{
+    echo "<br>";
 
-echo "<h1>hi php</h1>";
+    $localvariable = 5;
+    echo $localvariable;
+}
+write();
 ?>
 </body>
 </html>
